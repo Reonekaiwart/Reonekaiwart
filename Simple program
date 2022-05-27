@@ -1,0 +1,60 @@
+
+
+#include<stdio.h>
+int main()
+{
+    int rs, a, b, c, d, e, f, g, h ; //variable declaration
+
+    printf("Enter the amount in Rupees : ") ;
+    scanf("%d", &rs) ; //reding input from uer
+
+//C Program Logic For Denomination of an Amount Using While Loop
+    if (rs >= 500)
+    {
+        a = rs / 500 ;
+        printf("\nThe no. of five hundreds are : %d", a) ;
+    
+    }
+    if (rs >= 100)
+    {
+        b = rs / 100 ;
+        printf("\n\nThe no. of hundreds are : %d", b) ;
+    }
+    if (rs >= 50)
+    {
+        c = rs / 50 ;
+        printf("\n\nThe no. of fifties are : %d", c) ;
+    
+    }
+    if (rs >= 20)
+    {
+        d = rs / 20 ;
+        printf("\n\nThe no. of twenties are : %d", d) ;
+    
+    }
+    if (rs >= 10)
+    {
+        e = rs / 10 ;
+        printf("\n\nThe no. of tens are : %d", e) ;
+    
+    }
+    if (rs >= 5)
+    {
+        f = rs / 5 ;
+        printf("\n\nThe no. of fives are : %d", f) ;
+        
+    }
+    if (rs >= 2)
+    {
+        g = rs / 2 ;
+        printf("\n\nThe no. of Twos are : %d", g) ;
+
+    }
+    if (rs >= 1)
+    {
+        h = rs / 1 ;
+        printf("\n\nThe no. of ones are : %d", h) ;
+        
+    }
+    return 0;
+}
