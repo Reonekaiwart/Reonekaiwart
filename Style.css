@@ -1,0 +1,59 @@
+<html>
+<head><link rel="stylesheet" href="about.css"></head>
+<body>
+    <nav class="navbar">
+        <ul>
+                             <li><a href="home.html">Home</a></li>
+                             <li><a href="about.html">About</a></li>
+                             <li><a href="#">Projects</a></li>
+                             <li><a href="#">Contact</a></li>
+                    </ul>
+    </nav></body>
+<div class="about-section">
+  <h1>About Us Page</h1>
+  <p>This Website Is Created By Us .</p>
+  
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="https://i.postimg.cc/5NmkJ5Gd/1.jpg" alt="Rohan" style="width:100%">
+      <div class="container">
+        <h2>ROHAN KAIWART</h2>
+        <p class="title">Founder</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>jane@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="https://i.postimg.cc/mg2pgzfc/2.jpg" alt="Himank" style="width:100%">
+      <div class="container">
+        <h2>HIMANK SINGH</h2>
+        <p class="title">Co-Founder</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>mike@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="https://i.postimg.cc/y8QQg1sL/3.jpg
+" alt="Akshat" style="width:100%">
+      <div class="container">
+        <h2>AKSHAT VERMA</h2>
+        <p class="title">Co-Founder</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>john@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
